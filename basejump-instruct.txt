@@ -1,0 +1,13 @@
+Request Header Parser Microservice/WhoAmI
+
+FCC's example:
+https://cryptic-ridge-9197.herokuapp.com/api/whoami/
+
+Returns an object like this:
+{
+  "ipaddress": "209.254.229.138",
+  "language": "en-US",
+  "software": "Windows NT 6.1; rv:44.0"
+}
+
+This is it for the user story: I can get the IP address, language and operating system for my browser.

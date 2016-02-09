@@ -1,0 +1,31 @@
+body {
+    font-family: 'Muli';
+    font-size: 15px;
+}
+
+.container {
+	padding-top: 55px;
+}
+
+h1, h3 {
+    font-family: 'Pacifico';
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 300%;
+    padding-bottom: 15px;
+}
+
+h3 {
+    font-size: 200%;
+    padding: 15px 0;
+}
+
+p {
+    line-height: 1.7em;
+}
+
+.well {
+    border-color: #51b0ef;
+}

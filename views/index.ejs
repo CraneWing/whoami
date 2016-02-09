@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WhoAmI? | Header Info</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico|Muli:400,300">
+    <link rel="stylesheet" href="/public/css/styles.css"
+  </head>
+  <body>
+	<div class="container">
+	  <div class="row">
+		<div class="col-md-8 col-md-offset-2">
+		    <h1 class="text-center">?? Who Am I ??</h1>
+		    
+		    <p>That's an existential question many times, but this isn't a philosophy or metaphysics app. All it does is provide a little info on your browser and demonstrates the concept of Request Headers in a Node/Express environment.</p>
+		    
+		    <p>This is Basejump Challenge #2 in the Full Stack Developer Module of <a href="http://www.freecodecamp.com" target="_blank">FreeCodeCamp</a>.</p>
+		    
+		    <h3 class="text-center">Who You Are</h3>
+		    <div class="well">
+		     <ul>
+			    	<li><strong>IP Address:</strong> <%= ip %></li>
+			    	<li><strong>Operating System:</strong> <%= os %></li>
+			    	<li><strong>Browser:</strong> <%= browser %></li>
+			    	<li><strong>Language:</strong> <%= language %></li>
+			    </ul>	
+		   </div>
+		</div>
+	  </div>		 
+	</div>	<!-- container -->
+  </body>
+</html>
